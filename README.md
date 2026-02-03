@@ -195,7 +195,7 @@ print("Chat History:", history.json()["messages"])
 
 ## Notes
 
-- The agent uses GPT-4-turbo-preview model for best results
+- The agent uses GPT-5-Mini model for best and quick results
 - Web scraping respects robots.txt and uses proper headers
 - Content is limited to 10,000 characters per page to manage token limits
 - **Chat History**: The agent maintains conversation context using thread IDs. Use the same `thread_id` across multiple requests to maintain context. If no `thread_id` is provided, a default thread is used.
