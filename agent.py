@@ -31,7 +31,7 @@ def create_agent():
     
     # Initialize OpenAI model
     llm = ChatOpenAI(
-        model="gpt-4-turbo-preview",
+        model="gpt-5-mini-2025-08-07",
         temperature=0,
         api_key=settings.openai_api_key
     )
